@@ -1,0 +1,30 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+    },
+  "rules": {
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "import-sources-order": "any",
+    "named-imports-order": "any",
+    "no-duplicate-variable": true,
+    "max-line-length": {
+      "options": [180]
+    },
+    "new-parens": true,
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-conditional-assignment": true,
+    "no-consecutive-blank-lines": false,
+    "no-console": false,
+    "no-string-literal": false,
+    "member-access": false, // Or false. Read the rule and see what you want.
+    "curly": false,
+    "member-ordering": false
+  }
+}

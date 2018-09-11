@@ -1,0 +1,10 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": "current",
+        "uglify": true
+      }
+    }],
+    "es2015", "react"]
+}
